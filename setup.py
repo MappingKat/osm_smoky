@@ -22,9 +22,7 @@ dir_path = os.path.dirname(os.path.abspath(__file__))
 
 app = Flask(__name__)
 app.config.update(dict(
-  EMAIL_RECIPIENTS='npmap@nps.gov thomas_colson@nps.gov katrina@engelsted.co',
-  MAILGUN_DOMAIN='key-93qnq9-x-zo8bq3i2tyu4v9363dw41u6',
-  MAILGUN_API_KEY='sandboxd37dc97a8696408f9f93ca3b5b0ee4f5.mailgun.org'
+
   ))
 app.config.from_envvar('APP_SETTINGS', silent=True)
 
