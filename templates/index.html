@@ -1,0 +1,48 @@
+<!doctype html>
+    <title>OpenStreetMap Edits - Smoky National Park</title>
+    <meta name="apple-mobile-web-app-title" content="OSM Edits">
+    <meta name="application-name" content="OSM Edits">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daily edits in OpenStreetMap in the Great Smoky National Park in Tennessee">
+    <meta name="author" content="Great Smoky Mountain Ntl Park">
+   <link href="http://www.nps.gov/npmap/bootstrap/dist/css/nps-bootstrap.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='main.css') }}">
+    <link rel="shortcut icon" href="http://www.nps.gov/npmap/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.nps.gov/npmap/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.nps.gov/npmap/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.nps.gov/npmap/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://www.nps.gov/npmap/apple-touch-icon-57x57-precomposed.png">
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-46639323-1','nps.gov');ga('send','pageview');
+  </script>
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <h1 id="title">OSM Edits in Great Smoky National Park</h1>
+      </div>
+      <div class="right">
+        <h2>National Park Service<br>U.S. Department of the Interior</h2>
+        <span class="arrowhead"></span>
+      </div>
+    </header>
+  <body>
+      <div id="map"></div>
+       <footer>
+      <ul>
+        <li class="home-link"><a href="http://www.nps.gov">Home</a></li>
+        <li><a href="http://www.nps.gov/faqs.htm">Frequently Asked Questions</a></li>
+        <li><a href="http://www.nps.gov/aboutus/website-policies.htm">Website Policies</a></li>
+        <li><a href="http://www.nps.gov/contacts.htm">Contact Us</a></li>
+      </ul>
+      <span class="tag-line ir">Experience Your America</span>
+    </footer>
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+   <script type="text/javascript" src="{{ url_for('static', filename='map.js') }}"></script>
+  </body>
+</html>

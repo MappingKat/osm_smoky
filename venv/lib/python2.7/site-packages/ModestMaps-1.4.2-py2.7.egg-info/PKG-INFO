@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: ModestMaps
+Version: 1.4.2
+Summary: Modest Maps python port
+Home-page: http://modestmaps.com
+Author: Michal Migurski
+Author-email: UNKNOWN
+License: BSD
+Download-URL: http://py.modestmaps.com/dist/ModestMaps-1.4.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: PIL
